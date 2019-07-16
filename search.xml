@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
-<search>
-  <entry>
-    <title><![CDATA[Linux命令用这些就够了(1)]]></title>
-    <url>%2F2019%2F07%2F15%2FLinux%E5%91%BD%E4%BB%A4%E7%94%A8%E8%BF%99%E4%BA%9B%E5%B0%B1%E5%A4%9F%E4%BA%86-1%2F</url>
-    <content type="text"><![CDATA[ls: 显示文件或目录1.命令格式ls [OPTION]... [FILE]... 2.常用命令-l 列出文件详细信息l(list) -a 列出当前目录下所有文件及目录，包括隐藏的a(all) 3.常用简写ll ==&gt; ls -l 4.常用示例 (1).列出当前目录下所有以s 开头的文件夹及其子文件ls t* ll t* (显示详细信息)]]></content>
+<search> 
+  
+  
+    
+    <entry>
+      <title>Linux命令用这些就够了(1)</title>
+      <link href="/2019/07/15/Linux%E5%91%BD%E4%BB%A4%E7%94%A8%E8%BF%99%E4%BA%9B%E5%B0%B1%E5%A4%9F%E4%BA%86-1/"/>
+      <url>/2019/07/15/Linux%E5%91%BD%E4%BB%A4%E7%94%A8%E8%BF%99%E4%BA%9B%E5%B0%B1%E5%A4%9F%E4%BA%86-1/</url>
+      
+        <content type="html"><![CDATA[<p>ls: 显示文件或目录</p><h2 id="命令格式"><a href="#命令格式" class="headerlink" title="命令格式"></a>命令格式</h2><pre><code>ls [OPTION]... [FILE]...</code></pre><h2 id="常用命令"><a href="#常用命令" class="headerlink" title="常用命令"></a>常用命令</h2><pre><code>-l  列出文件详细信息l(list)-a  列出当前目录下所有文件及目录，包括隐藏的a(all)</code></pre><h2 id="常用简写"><a href="#常用简写" class="headerlink" title="常用简写"></a>常用简写</h2><pre><code>ll ==&gt; ls -l</code></pre><h2 id="常用示例"><a href="#常用示例" class="headerlink" title="常用示例"></a>常用示例</h2><a id="more"></a><h3 id="列出当前目录下所有以s-开头的文件夹及其子文件"><a href="#列出当前目录下所有以s-开头的文件夹及其子文件" class="headerlink" title="列出当前目录下所有以s 开头的文件夹及其子文件"></a>列出当前目录下所有以s 开头的文件夹及其子文件</h3><pre><code>ls t*</code></pre><p><img src="https://i.imgur.com/VOHzo9s.png" alt></p><pre><code>ll t* (显示详细信息)</code></pre><p><img src="https://i.imgur.com/Uakch7Y.png" alt></p>]]></content>
+      
+      
       <categories>
-        <category>Linux</category>
+          
+          <category> Linux </category>
+          
       </categories>
-      <tags>
-        <tag>Linux</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title><![CDATA[Hello World]]></title>
-    <url>%2F2019%2F05%2F21%2Fhello-world%2F</url>
-    <content type="text"><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick StartCreate a new post1$ hexo new "My New Post" More info: Writing Run server1$ hexo server More info: Server Generate static files1$ hexo generate More info: Generating Deploy to remote sites1$ hexo deploy More info: Deployment]]></content>
-  </entry>
+      
+      
+        <tags>
+            
+            <tag> Linux </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>Hello World</title>
+      <link href="/2019/05/21/hello-world/"/>
+      <url>/2019/05/21/hello-world/</url>
+      
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
 </search>
